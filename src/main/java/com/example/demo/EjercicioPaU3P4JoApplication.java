@@ -31,7 +31,7 @@ public class EjercicioPaU3P4JoApplication implements CommandLineRunner {
 		// TODO Auto-generated method stub
 
 		//P1....Productos 
-		/*Producto producto1 = new Producto();
+		Producto producto1 = new Producto();
 		producto1.setCategoria("enlatados");
 		producto1.setCodigoBarra("1C");
 		producto1.setNombre("sardinas");
@@ -47,7 +47,7 @@ public class EjercicioPaU3P4JoApplication implements CommandLineRunner {
 		producto2.setPrecio(new BigDecimal(15));
 		producto2.setStock(5);
 
-		this.productoService.agregar(producto2);*/
+		this.productoService.agregar(producto2);
 		
 		//P2... 
 		Producto producto3 = new Producto();

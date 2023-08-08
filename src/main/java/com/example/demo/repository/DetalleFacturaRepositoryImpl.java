@@ -65,7 +65,7 @@ public class DetalleFacturaRepositoryImpl implements IDetalleFacturaRepository {
 					this.productoRepository.actualizarPorCodigo(pEncontrado.getCodigoBarra(), 0);
 				}else {
 
-					this.productoRepository.actualizarPorCodigo(pEncontrado.getCodigoBarra(), stock-cantidad;);
+					this.productoRepository.actualizarPorCodigo(pEncontrado.getCodigoBarra(), stock-cantidad);
 				}
 			}
 			//Calculos
